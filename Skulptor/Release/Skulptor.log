@@ -1,0 +1,68 @@
+﻿Build started 4/26/2012 7:43:47 PM.
+     1>Project "C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor\Skulptor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Skulptor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing myglwidget.h...
+         Moc'ing my3dviewer.h...
+         Rcc'ing skulptor.qrc...
+     1>RCC : warning : No resources in 'C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor\skulptor.qrc'.
+         
+         Rcc'ing maya18th.qrc...
+     1>RCC : warning : No resources in 'C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor\maya18th.qrc'.
+         
+         Rcc'ing maya23aprilversion2.qrc...
+     1>RCC : warning : No resources in 'C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor\maya23aprilversion2.qrc'.
+         
+         Rcc'ing startercode.qrc...
+         Uic'ing my3dviewer.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /ID:\Qt\4.8.1\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.1\include\qtmain /ID:\Qt\4.8.1\include\QtCore /ID:\Qt\4.8.1\include\QtGui /ID:\Qt\4.8.1\include\QtOpenGL /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt camera.cpp face.cpp GeneratedFiles\Release\moc_my3dviewer.cpp GeneratedFiles\Release\moc_myglwidget.cpp halfedge.cpp main.cpp mesh.cpp my3dviewer.cpp MyCamera.cpp myglwidget.cpp vertex.cpp
+         camera.cpp
+         face.cpp
+         moc_my3dviewer.cpp
+         moc_myglwidget.cpp
+         halfedge.cpp
+         main.cpp
+         mesh.cpp
+         my3dviewer.cpp
+         MyCamera.cpp
+         myglwidget.cpp
+         vertex.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /ID:\Qt\4.8.1\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.1\include\qtmain /ID:\Qt\4.8.1\include\QtCore /ID:\Qt\4.8.1\include\QtGui /ID:\Qt\4.8.1\include\QtOpenGL /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_maya18th.cpp GeneratedFiles\qrc_maya23aprilversion2.cpp GeneratedFiles\qrc_skulptor.cpp GeneratedFiles\qrc_startercode.cpp
+         qrc_maya18th.cpp
+         qrc_maya23aprilversion2.cpp
+         qrc_skulptor.cpp
+         qrc_startercode.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /ID:\Qt\4.8.1\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.1\include\qtmain /ID:\Qt\4.8.1\include\QtCore /ID:\Qt\4.8.1\include\QtGui /ID:\Qt\4.8.1\include\QtOpenGL /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt glew.c
+         glew.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jdesai\Documents\CppWorkspace\Skulptor\\Skulptor.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.1\lib qtmain.lib QtCore4.lib QtGui4.lib QtOpenGL4.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Skulptor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor.lib" /MACHINE:X86 Release\camera.obj
+         Release\face.obj
+         Release\qrc_maya18th.obj
+         Release\qrc_maya23aprilversion2.obj
+         Release\qrc_skulptor.obj
+         Release\qrc_startercode.obj
+         Release\moc_my3dviewer.obj
+         Release\moc_myglwidget.obj
+         Release\glew.obj
+         Release\halfedge.obj
+         Release\main.obj
+         Release\mesh.obj
+         Release\my3dviewer.obj
+         Release\MyCamera.obj
+         Release\myglwidget.obj
+         Release\vertex.obj
+         Skulptor.vcxproj -> C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\jdesai\Documents\CppWorkspace\Skulptor\\Skulptor.exe;#1" /manifest Release\Skulptor.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Skulptor.unsuccessfulbuild".
+         Touching "Release\Skulptor.lastbuildstate".
+     1>Done Building Project "C:\Users\jdesai\Documents\CppWorkspace\Skulptor\Skulptor\Skulptor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.70
